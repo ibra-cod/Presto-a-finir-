@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&display=swap');
+/*:root {
+    /* COLOR ROOT, FONTS ROOT */
+
+/*}*/
+
+
+
+
+*{
+    margin :0;
+    padding:0;
+    overflow-x: hidden;
+}
+
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+}
+
+
+/* Header and nav css section*/ 
+
+
+.header{
+    background-image: url('public/images/jay-wennington-N_Y88TWmGwA-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+.logo-1{
+    font-family: 'Poppins';
+    font-size: 30px;
+    color: #000000;
+    text-decoration: none;
+}
+.logo-1 li a{
+   list-style: none;
+}
+
+a{
+    text-decoration: none;
+}   
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    border-bottom: 5px solid #FF6B81;
+}
+
+ul {
+    list-style: none;
+    padding: 1%;
+    list-style: none;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-decoration: none;
+}
+ul li{
+    
+    color: black;
+    font-family: 'Poppins';
+    list-style: none;
+    text-decoration: none;
+    padding: 10px;
+}
+
+ul li a{
+    
+    padding:10px;
+    color: black;
+    text-decoration: none;
+    list-style: none;
+text-decoration: none;
+}
+
+.ul-ul{
+    display: flex;
+}
+
+
+.btn-primary{
+    padding: 8px 30px;
+    border: none;
+    background-color: #FEF1F1;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    font-size: 12px;
+}
+
+
+.form-container{
+    width: 100%;max-width: 400px;
+    background-color: #FF6B81;
+    margin-top: 130px;
+    border-radius: 15px;
+    text-align: center;
+    height: 300px;
+
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-primary a {
+    list-style: none;
+}
+
+/*  HIDEN DIV CSS */
+    .hidden-div {
+        width: 100%;
+    position: relative;
+
+    }
+/* END HIDEN DIV CSS */
+
+.ul-ul2{
+    height: 100%;
+    width: 100%;
+    max-width: 200px;
+    max-height: 600px;
+    position: absolute;
+    background-color: with;
+    background-color: rgb(138, 232, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column
+
+}
+.ul-ul2  li {
+    padding: 10px;
+}
+
+.ul-ul {
+    padding:10px;
+}
+.active{
+    padding: 10px;
+}
+.login-h2{
+    padding-top: 40px;
+}
+
+ul li a {
+    text-decoration: none;
+}
+
+/* END Header and nav css section*/ 
+
+
+/* RESPONSIV CSS */
+@media (max-width: 850px) {
+     .ul-ul, .active{
+        visibility: hidden;
+    }
+    .img-responsive{
+        display: block;
+    }
+}
+
+@media (min-width: 800px) {
+   .img-responsive{
+       display: none;
+   }
+}
+
